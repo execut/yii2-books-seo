@@ -1,11 +1,7 @@
 # Yii2 module template
-Template for yii2 module based on yii2-crud-fields
+Yii2 execut/yii2-seo and execut/yii2-books integration package
 
 For license information check the [LICENSE](LICENSE.md)-file.
-
-English documentation is at [docs/guide/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide/README.md).
-
-Русская документация здесь [docs/guide-ru/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide-ru/README.md).
 
 [![Latest Stable Version](https://poser.pugx.org/execut/yii2-module-template/v/stable.png)](https://packagist.org/packages/execut/yii2-module-template)
 [![Total Downloads](https://poser.pugx.org/execut/yii2-module-template/downloads.png)](https://packagist.org/packages/execut/yii2-module-template)
@@ -20,20 +16,28 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require execut/yii2-module-template
+php composer.phar require execut/yii2-books-seo
 ```
 
 or add
 
 ```
-"execut/yii2-module-template": "dev-master"
+"execut/yii2-books-seo": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
 
+Apply module migrations:
+```shell script
+./yii migrate/up --interactive=0
+-> ...migration was applied.
+-> 
+-> Migrated up successfully.
+```
+
 Usage
 ----
 
-For more details please refer to the documentation [docs/guide/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide/README.md).
+For more details please refer to the [extending section](https://github.com/execut/yii2-books/blob/master/docs/guide/README.md#extending-the-module-functionality) of execut/yii2-books module documentation.
 
-Для более подробной информации обращайтесь к документации [docs/guide-ru/README.md](https://github.com/execut/yii2-module-template/blob/master/docs/guide-ru/README.md).
+Для более подробной информации обращайтесь к разделу [расширение функционала](https://github.com/execut/yii2-books/blob/master/docs/guide-ru/README.md#расширение-функционала-модуля) документации execut/yii2-books.

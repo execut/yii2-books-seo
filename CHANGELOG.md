@@ -1,17 +1,10 @@
 execut\moduleTemplate releases
 ==============================================
 
-0.1.2 dev
----
-- Added bootstrap folder
-- Added asset config to composer.json
-
-0.1.1
----
-- Removed dev from changelog
-
-0.1.0
+0.1.0 2020-08-23
 ---------------------
-- Added module template
-- Added changelog
-- Added readme templates
+- Added migration
+- Added documentation
+- Added auto bootstrap
+- Fixed cs
+- Added tests

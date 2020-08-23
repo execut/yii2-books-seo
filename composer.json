@@ -1,14 +1,14 @@
 {
-  "name": "execut/yii2-module-template",
-  "description": "A template for module based on eXeCUT Yii2 CRUD",
-  "keywords": ["yii2 crud", "yii2 module template"],
-  "homepage": "https://github.com/execut/yii2-module-template",
+  "name": "execut/yii2-books-seo",
+  "description": "Yii2 execut/yii2-seo and execut/yii2-books integration package",
+  "keywords": ["yii2 seo", "yii2 books", "yii2 books seo integration"],
+  "homepage": "https://github.com/execut/yii2-books-seo",
   "type": "yii2-extension",
   "license": "Apache-2.0",
   "support": {
-    "issues": "https://github.com/execut/yii2-module-template/issues?state=open",
-    "wiki": "https://github.com/execut/yii2-module-template/wiki",
-    "source": "https://github.com/execut/yii2-module-template"
+    "issues": "https://github.com/execut/yii2-books-seo/issues?state=open",
+    "wiki": "https://github.com/execut/yii2-books-seo/wiki",
+    "source": "https://github.com/execut/yii2-books-seo"
   },
   "authors": [
     {
@@ -18,7 +18,9 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^7.4",
-    "yiisoft/yii2": "@dev"
+    "yiisoft/yii2": "@dev",
+    "execut/yii2-books": "*",
+    "execut/yii2-seo": "*"
   },
   "require-dev": {
     "codeception/codeception": "^4.0",
@@ -40,7 +42,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "execut\\moduleTemplate\\": "src"
+      "execut\\booksSeo\\": "src"
     }
   }
 }
