@@ -3,9 +3,9 @@ Yii2 execut/yii2-seo and execut/yii2-books integration package
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-[![Latest Stable Version](https://poser.pugx.org/execut/yii2-module-template/v/stable.png)](https://packagist.org/packages/execut/yii2-module-template)
-[![Total Downloads](https://poser.pugx.org/execut/yii2-module-template/downloads.png)](https://packagist.org/packages/execut/yii2-module-template)
-[![Build Status](https://travis-ci.com/execut/yii2-module-template.svg?branch=master)](https://travis-ci.com/execut/yii2-module-template)
+[![Latest Stable Version](https://poser.pugx.org/execut/yii2-books-seo/v/stable.png)](https://packagist.org/packages/execut/yii2-books-seo)
+[![Total Downloads](https://poser.pugx.org/execut/yii2-books-seo/downloads.png)](https://packagist.org/packages/execut/yii2-books-seo)
+[![Build Status](https://travis-ci.com/execut/yii2-books-seo.svg?branch=master)](https://travis-ci.com/execut/yii2-books-seo)
 
 
 Installation
