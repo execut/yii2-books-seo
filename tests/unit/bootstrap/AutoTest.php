@@ -26,10 +26,10 @@ class AutoTest extends Unit
                 'components' => new UnsetArrayValue(),
             ],
         ]);
-        $books = $this->getMockForAbstractClass(Component::class);
+        $books = $this->getMockBuilder(Component::class)->getMock();
         $books->expects($this->once())
             ->method('addBooksCrudFieldsPlugin')
-            ->with($this->instanceOf(Fields::class));
+            ->with($this->isInstanceOf(Fields::class));
         \yii::$app->setComponents([
             'books' => $books
         ]);
